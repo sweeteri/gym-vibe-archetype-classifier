@@ -288,4 +288,4 @@ class MusicDataCollector:
 
 
 if __name__ == "__main__":
-    MusicDataCollector().process_csv('data/raw/manual_tracks_full_tagged.csv', 'data/processed/collected_data.csv', limit=5)
+    MusicDataCollector().process_csv('data/raw/manual_tracks_full_tagged.csv', 'data/processed/collected_data.csv')
