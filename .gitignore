@@ -1,0 +1,26 @@
+# IDE
+.idea/
+.vscode/
+*.iml
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+env/
+
+# Данные и кэш
+parser/.cache
+parser/data/
+parser/models/
+*.csv
+*.pkl
+
+# Секреты
+.env
+
+# Картинки (если не хотите их в Git)
+*.png
+*.jpg
+*.jpeg
